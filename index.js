@@ -22,7 +22,8 @@ app.get("/",(req,res)=>{
 app.use("/signup",signupRoute)
 app.use("/login",loginRoute)
 app.use("/jobs",jobRoute)
-applyRoute("/apply",applyRoute)
+app.use("/apply",applyRoute)
+
 
 
 
